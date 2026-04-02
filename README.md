@@ -6,13 +6,16 @@
 Оценить текущие процессы и IT‑ландшафт банка «Стандарт», выявить ограничения для цифровой трансформации и подготовить наглядные схемы, которые лягут в основу проектирования целевого состояния.
 
 ### 1. Карта IT‑ландшафта
-- **Файл:** [IT_landscape_current.drawio](Task1/drawio/IT_landscape_current.drawio) (лист 1 - Карта IT-ландшафта)
+- **Файл:** [Task1.drawio](Task1/drawio/Task1.drawio) (лист 1 - Карта IT-ландшафта)
 - **Превью:** \
-![IT_landscape_current-landscape_map.drawio.png](Task1/image/IT_landscape_current-landscape_map.drawio.png)
+![IT_landscape_current.drawio.png](Task1/image/IT_landscape_current.drawio.png)
 
-### 2. Диаграмма кредитного процесса (Swimlane)
-- **Файл:** [IT_landscape_current.drawio](Task1/drawio/IT_landscape_current.drawio) (лист 2 - Кредитный процесс)
+### 2. Диаграмма кредитного процесса (Диаграмма последовательности)
+- **Файл:** [Task1.drawio](Task1/drawio/Task1.drawio) (лист 2 - Кредитный процесс)
 - **Превью:** \
+![credit_seq_diagram.drawio.png](Task1/image/credit_seq_diagram.drawio.png)
 
 ### 3. Схема интеграции приложений
-
+- **Файл:** [Task1.drawio](Task1/drawio/Task1.drawio) (лист 3 - Схема интеграции приложений)
+- **Превью:** \
+![apps_integration.drawio.png](Task1/image/apps_integration.drawio.png)
