@@ -17,7 +17,7 @@ System_Boundary(bank, "Информационные системы Банка С
     System(claim_ms, "Микросервис управления заявками", "Единый реестр заявок, Spring Boot, PostgreSQL, Kafka")
     System(abs, "АБС", "Core banking, Oracle, Delphi")
     System(cc, "Система кол-центра", "CRM подрядчика, React, Java")
-    System(sms, "СМС-шлюз", "Внешний сервис телеком-оператора")
+    System(sms, "СМС-шлюз")
 }
 
 Rel(new_client, site, "Подаёт заявку на депозит (ФИО, телефон)", "HTTPS")

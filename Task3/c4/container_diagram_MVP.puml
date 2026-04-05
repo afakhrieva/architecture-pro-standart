@@ -13,9 +13,9 @@ Boundary(clients, "Пользователи") {
 Person(call_operator, "Оператор кол-центра")
 Person(dep_back, "Сотрудник бэк-офиса депозитов")
 
-System_Ext(site, "Сайт", "PHP, React")
-System_Ext(cc, "Система кол-центра", "React, Java, Kafka consumer")
-System_Ext(sms_gateway, "СМС-шлюз", "Внешний")
+Container(site, "Сайт", "PHP, React")
+Container(cc, "Система кол-центра", "React, Java, Kafka consumer")
+Container(sms_gateway, "СМС-шлюз", "Внешний")
 
 Container(ib, "Интернет-банк", "ASP.NET MVC + модуль на .NET Core", "Авторизация, отображение депозитов, отправка заявок (синхронно), чтение ставок из Redis")
 Container(redis, "Кэш Redis", "Redis", "Хранит актуальные ставки депозитов")
